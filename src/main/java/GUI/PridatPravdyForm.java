@@ -32,14 +32,21 @@ public class PridatPravdyForm extends javax.swing.JDialog {
         pridatButton = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         znenieTextArea = new javax.swing.JTextArea();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         nazovLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        nazovLabel.setForeground(new java.awt.Color(255, 255, 255));
         nazovLabel.setText("Názov");
+        getContentPane().add(nazovLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, -1, -1));
+        getContentPane().add(nazovTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 39, 218, 30));
 
         znenieLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        znenieLabel.setForeground(new java.awt.Color(255, 255, 255));
         znenieLabel.setText("Znenie");
+        getContentPane().add(znenieLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 77, -1, -1));
 
         pridatButton.setText("Pridať");
         pridatButton.addActionListener(new java.awt.event.ActionListener() {
@@ -47,45 +54,16 @@ public class PridatPravdyForm extends javax.swing.JDialog {
                 pridatButtonActionPerformed(evt);
             }
         });
+        getContentPane().add(pridatButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 370, -1, -1));
 
         znenieTextArea.setColumns(20);
         znenieTextArea.setRows(5);
         jScrollPane1.setViewportView(znenieTextArea);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(pridatButton))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(nazovTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(nazovLabel)
-                            .addComponent(znenieLabel))
-                        .addGap(0, 162, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(nazovLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(nazovTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(znenieLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(pridatButton)
-                .addContainerGap(21, Short.MAX_VALUE))
-        );
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 320, 240));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Pictures\\vitraz_kriz_cut.jpg")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-6, -6, 350, 420));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -149,6 +127,7 @@ public class PridatPravdyForm extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel nazovLabel;
     private javax.swing.JTextField nazovTextField;

@@ -21,7 +21,8 @@ public class MysqlPravdyVieryTest {
       MysqlPravdyViery instance = new MysqlPravdyViery();
     
     public MysqlPravdyVieryTest() {
-        
+           pravda.setNazov("aa");
+        pravda.setObsah("aaa");
      
    
     }
@@ -47,8 +48,7 @@ public class MysqlPravdyVieryTest {
     public void testPridat() {
         System.out.println("pridat");
              
-        pravda.setNazov("aa");
-        pravda.setObsah("aaa");
+     
        
        List<PravdyViery> velkostPred = instance.dajVsetky();
       
@@ -77,18 +77,12 @@ public class MysqlPravdyVieryTest {
         assertEquals(velkostPred.size()-1, velkostPo.size());
     }
 
-    /*
-    @Test
+ @Test
     public void testDajVsetky() {
         System.out.println("dajVsetky");
-        MysqlPravdyViery instance = new MysqlPravdyViery();
-        List<PravdyViery> expResult = null;
         List<PravdyViery> result = instance.dajVsetky();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(2, result.size()); 
     }
-
     /**
      * Test of upravit method, of class MysqlPravdyViery.
      */

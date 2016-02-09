@@ -101,11 +101,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="control">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\ch2c.jpg"/>
-        </Property>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="controlActionPerformed"/>
       </Events>
@@ -118,7 +113,7 @@
     <Component class="javax.swing.JLabel" name="pozadie">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\pm3.jpg"/>
+          <Image iconType="2" name="C:\Users\MojaAplikacia\pm3.jpg"/>
         </Property>
       </Properties>
       <Constraints>

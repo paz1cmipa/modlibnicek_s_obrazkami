@@ -155,7 +155,7 @@
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\&#x160;imon\Desktop\projekt\obr\citat1.jpg"/>
+          <Image iconType="2" name="C:\Users\MojaAplikacia\citat1.jpg"/>
         </Property>
       </Properties>
       <Constraints>

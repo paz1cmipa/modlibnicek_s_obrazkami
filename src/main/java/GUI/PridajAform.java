@@ -69,7 +69,7 @@ public class PridajAform extends javax.swing.JDialog {
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 84, 414, 201));
         getContentPane().add(autorField, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 203, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\c5.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\MojaAplikacia\\c5.jpg")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -110, 550, 470));
 
         pack();

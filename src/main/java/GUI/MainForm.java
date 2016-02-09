@@ -119,7 +119,7 @@ public class MainForm extends javax.swing.JFrame {
 		fvtButton.setVisible(false);
 		sviatokLable.setVisible(false);
 		pasik.setVisible(false);
-		doplnokL.setVisible(false);
+		//doplnokL.setVisible(false);
 		pridajAbutton.setVisible(false);
        
 
@@ -200,12 +200,10 @@ public class MainForm extends javax.swing.JFrame {
         sviatokLable = new javax.swing.JLabel();
         pasik = new javax.swing.JLabel();
         casLable = new javax.swing.JLabel();
-        pp = new javax.swing.JLabel();
-        doplnokL = new javax.swing.JLabel();
         pridajAbutton = new javax.swing.JButton();
         pravdyVieryButton = new javax.swing.JButton();
         hladajTextField = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        hladatButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(153, 0, 51));
@@ -214,6 +212,7 @@ public class MainForm extends javax.swing.JFrame {
 
         najstButton.setBackground(new java.awt.Color(204, 255, 255));
         najstButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        najstButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\najstM.jpg")); // NOI18N
         najstButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 najstButtonMouseEntered(evt);
@@ -290,6 +289,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pridajButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, -1, -1));
 
+        domovButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\1a.jpg")); // NOI18N
         domovButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 domovButtonMouseEntered(evt);
@@ -303,8 +303,9 @@ public class MainForm extends javax.swing.JFrame {
                 domovButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(domovButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 10, 80, -1));
+        getContentPane().add(domovButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 10, 80, 70));
 
+        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\n.jpg")); // NOI18N
         PRIDAJbutton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 PRIDAJbuttonMouseEntered(evt);
@@ -320,6 +321,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(PRIDAJbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 100, 70));
 
+        pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\k2.jpg")); // NOI18N
         pribehButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 pribehButtonMouseClicked(evt);
@@ -338,6 +340,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pribehButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 100, 70));
 
+        nastaveniaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\s1a.jpg")); // NOI18N
         nastaveniaButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 nastaveniaButtonMouseEntered(evt);
@@ -372,12 +375,13 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 0, 260, 510));
 
         sipkaButton.setBackground(new java.awt.Color(153, 153, 255));
+        sipkaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\arr.jpg")); // NOI18N
         sipkaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sipkaButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(sipkaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 243, 50, -1));
+        getContentPane().add(sipkaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 243, 50, 50));
 
         odstranButton.setBackground(new java.awt.Color(204, 204, 204));
         odstranButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -402,6 +406,7 @@ public class MainForm extends javax.swing.JFrame {
         menoLable.setText("menoumy sel");
         getContentPane().add(menoLable, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, 210, 40));
 
+        laskaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Downloads\\12520369_1236292979719721_1379009942_n.gif")); // NOI18N
         laskaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 laskaButtonActionPerformed(evt);
@@ -409,6 +414,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(laskaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 130, 70, 70));
 
+        downButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\down.jpg")); // NOI18N
         downButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 downButtonActionPerformed(evt);
@@ -430,6 +436,7 @@ public class MainForm extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 600, 680, 240));
 
+        zobrazFvtButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\fav1.jpg")); // NOI18N
         zobrazFvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 zobrazFvtButtonMouseEntered(evt);
@@ -452,6 +459,7 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(zobrazitButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 710, -1, -1));
         getContentPane().add(fvtChoice, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 670, 150, 30));
 
+        fvtButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\Folder-Blue-Favorite-icon.jpg")); // NOI18N
         fvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 fvtButtonMouseEntered(evt);
@@ -464,6 +472,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(fvtButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 80, 80));
 
+        binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\bin1.jpg")); // NOI18N
         binButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 binButtonMouseEntered(evt);
@@ -477,10 +486,11 @@ public class MainForm extends javax.swing.JFrame {
                 binButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(binButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 770, 60, -1));
+        getContentPane().add(binButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 770, 60, 60));
 
         pozadieFvt.setBackground(new java.awt.Color(153, 153, 255));
         pozadieFvt.setForeground(new java.awt.Color(153, 153, 255));
+        pozadieFvt.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\hv.jpg")); // NOI18N
         getContentPane().add(pozadieFvt, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 560, 1150, 310));
 
         sviatokLable.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
@@ -511,32 +521,6 @@ public class MainForm extends javax.swing.JFrame {
         casLable.setText("cas");
         getContentPane().add(casLable, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 270, 30));
 
-        pp.setForeground(new java.awt.Color(255, 255, 255));
-        pp.setText("jLabel4");
-        pp.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                ppMouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                ppMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                ppMouseExited(evt);
-            }
-        });
-        getContentPane().add(pp, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, 50));
-
-        doplnokL.setText("jLabel4");
-        doplnokL.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                doplnokLMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                doplnokLMouseExited(evt);
-            }
-        });
-        getContentPane().add(doplnokL, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 0, 170, 40));
-
         pridajAbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pridajAbuttonActionPerformed(evt);
@@ -554,14 +538,14 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(pravdyVieryButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 250, -1));
         getContentPane().add(hladajTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 10, 140, 30));
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jButton1.setText("Hľadaj");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        hladatButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        hladatButton.setText("Hľadaj");
+        hladatButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                hladatButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 10, -1, -1));
+        getContentPane().add(hladatButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 10, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1093,40 +1077,19 @@ public class MainForm extends javax.swing.JFrame {
         
         pasik.setVisible(true);
         sviatokLable.setVisible(true);
-        doplnokL.setVisible(true);
+//        doplnokL.setVisible(true);
     }//GEN-LAST:event_pasikMouseEntered
 
     private void pasikMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pasikMouseExited
         
         pasik.setVisible(false);
         sviatokLable.setVisible(false);
-        doplnokL.setVisible(false);
+     //   doplnokL.setVisible(false);
         
          sviatokLable.setText(sv.nacitaj(mesiac, den));
         
         
     }//GEN-LAST:event_pasikMouseExited
-
-    private void ppMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ppMouseClicked
-        
-      
-        
-    }//GEN-LAST:event_ppMouseClicked
-
-    private void ppMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ppMouseEntered
- 
-         sviatokLable.setVisible(true);
-         pasik.setVisible(true);
-         doplnokL.setVisible(true);
-            }//GEN-LAST:event_ppMouseEntered
-
-    private void ppMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ppMouseExited
-            
-         sviatokLable.setVisible(false);
-         pasik.setVisible(false);
-         doplnokL.setVisible(false);
-        
-    }//GEN-LAST:event_ppMouseExited
 
     private void sviatokLableMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sviatokLableMouseClicked
         
@@ -1136,27 +1099,13 @@ public class MainForm extends javax.swing.JFrame {
         System.out.println(sviatok);
     }//GEN-LAST:event_sviatokLableMouseClicked
 
-    private void doplnokLMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_doplnokLMouseEntered
-
-        sviatokLable.setVisible(true);
-         pasik.setVisible(true);
-         doplnokL.setVisible(true);
-        
-        
-    }//GEN-LAST:event_doplnokLMouseEntered
-
     private void sviatokLableMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_sviatokLableMouseEntered
          
          sviatokLable.setVisible(true);
-         pasik.setVisible(true);
+         pasik.setVisible(true);/*
          doplnokL.setVisible(true);    }//GEN-LAST:event_sviatokLableMouseEntered
-
-    private void doplnokLMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_doplnokLMouseExited
-        sviatokLable.setVisible(false);
-         pasik.setVisible(false);
-         doplnokL.setVisible(false);
-    }//GEN-LAST:event_doplnokLMouseExited
-
+*/
+    }
     private void zobrazFvtButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_zobrazFvtButtonMouseEntered
 
         zobrazFvtButton.setToolTipText("Obľúbené položky");
@@ -1187,11 +1136,11 @@ public class MainForm extends javax.swing.JFrame {
           pravdy.setVisible(true);
     }//GEN-LAST:event_pravdyVieryButtonActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void hladatButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hladatButtonActionPerformed
        String slovo = hladajTextField.getText();
        HladajForm hladaj = new HladajForm(this, true, slovo);
        hladaj.setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_hladatButtonActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -1234,13 +1183,12 @@ public class MainForm extends javax.swing.JFrame {
     private java.awt.Choice choice1;
     private javax.swing.JToggleButton citatButton;
     private javax.swing.JButton domovButton;
-    private javax.swing.JLabel doplnokL;
     private javax.swing.JButton downButton;
     private javax.swing.JButton fvtButton;
     private java.awt.Choice fvtChoice;
     private javax.swing.JList fvtList;
     private javax.swing.JTextField hladajTextField;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton hladatButton;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
@@ -1254,7 +1202,6 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JLabel pasik;
     private javax.swing.JLabel pozadie;
     private javax.swing.JLabel pozadieFvt;
-    private javax.swing.JLabel pp;
     private javax.swing.JButton pravdyVieryButton;
     private javax.swing.JButton pribehButton;
     private javax.swing.JButton pridajAbutton;

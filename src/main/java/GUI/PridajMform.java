@@ -58,7 +58,7 @@ public class PridajMform extends javax.swing.JFrame {
             }
         });
         getContentPane().add(TextField);
-        TextField.setBounds(160, 30, 153, 26);
+        TextField.setBounds(160, 30, 153, 20);
 
         TextArea.setColumns(20);
         TextArea.setRows(5);
@@ -89,7 +89,6 @@ public class PridajMform extends javax.swing.JFrame {
         getContentPane().add(PridajButton);
         PridajButton.setBounds(350, 290, 88, 25);
 
-        control.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\ch2c.jpg")); // NOI18N
         control.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 controlActionPerformed(evt);
@@ -98,7 +97,7 @@ public class PridajMform extends javax.swing.JFrame {
         getContentPane().add(control);
         control.setBounds(330, 20, 60, 50);
 
-        pozadie.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\pm3.jpg")); // NOI18N
+        pozadie.setIcon(new javax.swing.ImageIcon("C:\\Users\\MojaAplikacia\\pm3.jpg")); // NOI18N
         getContentPane().add(pozadie);
         pozadie.setBounds(0, 0, 460, 330);
 

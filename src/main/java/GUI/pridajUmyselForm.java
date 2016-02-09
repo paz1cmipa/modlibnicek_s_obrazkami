@@ -75,7 +75,7 @@ public class pridajUmyselForm extends javax.swing.JDialog {
             }
         });
         getContentPane().add(umText);
-        umText.setBounds(120, 100, 165, 26);
+        umText.setBounds(120, 100, 165, 20);
 
         pridajButton.setBackground(new java.awt.Color(204, 255, 255));
         pridajButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -96,9 +96,9 @@ public class pridajUmyselForm extends javax.swing.JDialog {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(280, 200, 89, 29);
+        jButton1.setBounds(280, 200, 71, 23);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Šimon\\Desktop\\projekt\\obr\\s1.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\MojaAplikacia\\s1.png")); // NOI18N
         getContentPane().add(jLabel2);
         jLabel2.setBounds(-40, 0, 430, 280);
 

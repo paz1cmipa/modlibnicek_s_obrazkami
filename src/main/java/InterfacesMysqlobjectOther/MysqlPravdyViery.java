@@ -1,23 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package InterfacesMysqlobjectOther;
 
 import Entity.PravdyViery;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
 
-/**
- *
- * @author Robert Link
- */
+
 public class MysqlPravdyViery implements PravdyVieryDao{
 
     private JdbcTemplate jdbcTemplate;
+   // private Object namedParameterJdbcTemplate;
+    
+    private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
     
     
     public MysqlPravdyViery(){
@@ -27,15 +29,35 @@ public class MysqlPravdyViery implements PravdyVieryDao{
 	dataSource.setUser("paz1cuser");
 	dataSource.setPassword("simon.123");
 	jdbcTemplate = new JdbcTemplate(dataSource);
+        
+          this.namedParameterJdbcTemplate = new NamedParameterJdbcTemplate(this.jdbcTemplate);
 	
     }
     
     
-    @Override
+   /* @Override
     public void pridat(PravdyViery pravdy) {
         String sql="Insert into  PravdyViery values (?,?,?)";
         jdbcTemplate.update(sql, null,pravdy.getNazov(),pravdy.getObsah());
         
+    }*/
+    
+    @Override
+    public void pridat(PravdyViery pravdy) {
+        Map<String, Object> pridatHodnoty = new HashMap<String, Object>();
+        pridatHodnoty.put("id", pravdy.getID());
+        pridatHodnoty.put("nazov", pravdy.getNazov());
+        pridatHodnoty.put("obsah", pravdy.getObsah());
+  
+        
+        String sql = "INSERT INTO PravdyViery VALUES(:id, :nazov, :obsah)";
+
+        KeyHolder keyHolder = new GeneratedKeyHolder();
+        namedParameterJdbcTemplate.update(sql, new MapSqlParameterSource(pridatHodnoty), keyHolder);
+        int id = keyHolder.getKey().intValue();
+        pravdy.setID(id);
+        
+      
     }
 
     @Override

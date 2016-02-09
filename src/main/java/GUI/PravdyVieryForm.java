@@ -23,7 +23,7 @@ public class PravdyVieryForm extends javax.swing.JDialog {
         nazvyList.setListData(vsetkyPravdy.toArray());
         this.setTitle("Základné pravdy kresťanskej viery");
         
-        this.setSize(240, 300);
+        this.setSize(240, 350);
     }
 
     /**
@@ -40,8 +40,10 @@ public class PravdyVieryForm extends javax.swing.JDialog {
         odstranitButton = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         obsahTextArea = new javax.swing.JTextArea();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         nazvyList.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
@@ -55,41 +57,24 @@ public class PravdyVieryForm extends javax.swing.JDialog {
         });
         jScrollPane1.setViewportView(nazvyList);
 
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 11, 144, 278));
+
+        odstranitButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\MojaAplikacia\\bin1.jpg")); // NOI18N
         odstranitButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 odstranitButtonActionPerformed(evt);
             }
         });
+        getContentPane().add(odstranitButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 235, 61, 54));
 
         obsahTextArea.setColumns(20);
         obsahTextArea.setRows(5);
         jScrollPane2.setViewportView(obsahTextArea);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(6, 6, 6)
-                .addComponent(odstranitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 328, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(odstranitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane2)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 278, Short.MAX_VALUE))
-                .addContainerGap())
-        );
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(235, 11, 328, 278));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Pictures\\duha_cut.jpg")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 590, 320));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -97,7 +82,7 @@ public class PravdyVieryForm extends javax.swing.JDialog {
     private void nazvyListMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nazvyListMouseClicked
        if(evt.getClickCount()==2){
           PravdyViery pravda = (PravdyViery) nazvyList.getSelectedValue();
-          this.setSize(575, 300);
+          this.setSize(590, 350);
           obsahTextArea.setVisible(true);
           obsahTextArea.setText(pravda.getObsah());
           
@@ -165,6 +150,7 @@ public class PravdyVieryForm extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JList nazvyList;
