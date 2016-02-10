@@ -17,7 +17,7 @@ import org.springframework.jdbc.support.KeyHolder;
 public class MysqlPravdyViery implements PravdyVieryDao{
 
     private JdbcTemplate jdbcTemplate;
-   // private Object namedParameterJdbcTemplate;
+   
     
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
     
@@ -35,12 +35,7 @@ public class MysqlPravdyViery implements PravdyVieryDao{
     }
     
     
-   /* @Override
-    public void pridat(PravdyViery pravdy) {
-        String sql="Insert into  PravdyViery values (?,?,?)";
-        jdbcTemplate.update(sql, null,pravdy.getNazov(),pravdy.getObsah());
-        
-    }*/
+  
     
     @Override
     public void pridat(PravdyViery pravdy) {

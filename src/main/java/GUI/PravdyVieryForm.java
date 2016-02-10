@@ -103,7 +103,7 @@ public class PravdyVieryForm extends javax.swing.JDialog {
     public void refresh(){
        
         nazvyList.setListData( pravdyMySql.dajVsetky().toArray());
-         this.setSize(240, 300);
+         this.setSize(240, 350);
          obsahTextArea.setVisible(false);
     }
     

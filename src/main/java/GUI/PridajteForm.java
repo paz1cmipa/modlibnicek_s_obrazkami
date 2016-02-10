@@ -140,7 +140,7 @@ public class PridajteForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(zatvorButton);
-        zatvorButton.setBounds(560, 300, 80, 70);
+        zatvorButton.setBounds(480, 290, 80, 70);
 
         pravdyButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Pictures\\mojses_cut2.jpg")); // NOI18N
         pravdyButton.addMouseListener(new java.awt.event.MouseAdapter() {

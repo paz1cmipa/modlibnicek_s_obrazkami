@@ -3,10 +3,7 @@ package InterfacesMysqlobjectOther;
 import Entity.*;
 import java.util.List;
 
-/**
- *
- * @author Robert Link
- */
+
 public interface PravdyVieryDao {
     
     
