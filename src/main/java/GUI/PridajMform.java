@@ -97,7 +97,7 @@ public class PridajMform extends javax.swing.JFrame {
         getContentPane().add(control);
         control.setBounds(330, 20, 60, 50);
 
-        pozadie.setIcon(new javax.swing.ImageIcon("C:\\Users\\MojaAplikacia\\pm3.jpg")); // NOI18N
+        pozadie.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/pm3.jpg"))); // NOI18N
         getContentPane().add(pozadie);
         pozadie.setBounds(0, 0, 460, 330);
 

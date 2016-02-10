@@ -114,7 +114,7 @@ public class PridajPform extends javax.swing.JFrame {
         });
         getContentPane().add(control, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, 60, 30));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\MojaAplikacia\\prifajPform.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/prifajPform.jpg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 690, 390));
 
         pack();

@@ -33,7 +33,7 @@
           <Color blue="ff" green="66" red="0" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\m4w.jpg"/>
+          <Image iconType="3" name="/GUI/Images/m4w.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -53,7 +53,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\c6_PerfectPhoto.cz_2015-10-16 11-03-42.jpg"/>
+          <Image iconType="3" name="/GUI/Images/c6_PerfectPhoto.cz_2015-10-16 11-03-42.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -73,7 +73,7 @@
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\children-reading-the-bible-clipart-bible-kid-girl-9330431.jpg"/>
+          <Image iconType="3" name="/GUI/Images/children-reading-the-bible-clipart-bible-kid-girl-9330431.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -144,7 +144,7 @@
           <Font name="Tahoma" size="16" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\12.jpg"/>
+          <Image iconType="3" name="/GUI/Images/12.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -161,7 +161,7 @@
     <Component class="javax.swing.JButton" name="pravdyButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Pictures\mojses_cut2.jpg"/>
+          <Image iconType="3" name="/GUI/Images/mojses_cut2.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -194,7 +194,7 @@
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\MojaAplikacia\ir_attachment_70.jpeg"/>
+          <Image iconType="3" name="/GUI/Images/ir_attachment_70.jpeg"/>
         </Property>
       </Properties>
       <Events>

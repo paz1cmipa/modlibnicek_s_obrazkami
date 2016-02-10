@@ -147,7 +147,7 @@
     <Component class="javax.swing.JButton" name="binButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\bin1.jpg"/>
+          <Image iconType="3" name="/GUI/Images/bin1.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -165,7 +165,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\MojaAplikacia\editing.jpg"/>
+          <Image iconType="3" name="/GUI/Images/editing.jpg"/>
         </Property>
       </Properties>
       <Constraints>

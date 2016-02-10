@@ -108,7 +108,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         setBackground(new java.awt.Color(102, 102, 102));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        setMotivButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\default.jpg")); // NOI18N
+        setMotivButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/default.jpg"))); // NOI18N
         setMotivButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 setMotivButtonMouseEntered(evt);
@@ -146,7 +146,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         getContentPane().add(upravDataButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 140, -1, -1));
         getContentPane().add(vyberCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 100, 130, 40));
 
-        sipkaP.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\zP.jpg")); // NOI18N
+        sipkaP.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/zP.jpg"))); // NOI18N
         sipkaP.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 sipkaPMouseEntered(evt);
@@ -162,7 +162,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         });
         getContentPane().add(sipkaP, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 20, 30));
 
-        sipkaL.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\zL.jpg")); // NOI18N
+        sipkaL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/zL.jpg"))); // NOI18N
         sipkaL.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 sipkaLMouseEntered(evt);
@@ -183,7 +183,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 390, -1, -1));
         getContentPane().add(jSlider1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 380, -1, -1));
 
-        minusB.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\fontsizedown.jpg")); // NOI18N
+        minusB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/fontsizedown.jpg"))); // NOI18N
         minusB.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 minusBMouseEntered(evt);
@@ -196,7 +196,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         });
         getContentPane().add(minusB, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 270, 40, 40));
 
-        fontButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\font2.jpg")); // NOI18N
+        fontButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/font2.jpg"))); // NOI18N
         fontButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 fontButtonMouseEntered(evt);
@@ -212,7 +212,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         });
         getContentPane().add(fontButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 190, 60, 60));
 
-        plusB.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\fontsizeup.jpg")); // NOI18N
+        plusB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/fontsizeup.jpg"))); // NOI18N
         plusB.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 plusBMouseEntered(evt);
@@ -251,7 +251,7 @@ public class NastavenieForm extends javax.swing.JDialog {
         jButton4.setText("jButton4");
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 410, -1, -1));
 
-        pozadie.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\settings-wooden2.jpg")); // NOI18N
+        pozadie.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/settings-wooden2.jpg"))); // NOI18N
         pozadie.setText(" ");
         getContentPane().add(pozadie, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, -120, 660, 500));
 

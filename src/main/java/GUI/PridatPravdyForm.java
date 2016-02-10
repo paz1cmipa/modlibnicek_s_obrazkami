@@ -62,7 +62,7 @@ public class PridatPravdyForm extends javax.swing.JDialog {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 320, 240));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Pictures\\vitraz_kriz_cut.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/vitraz_kriz_cut.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-6, -6, 350, 420));
 
         pack();

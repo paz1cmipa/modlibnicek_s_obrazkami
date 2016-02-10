@@ -40,7 +40,7 @@
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\najstM.jpg"/>
+          <Image iconType="3" name="/GUI/Images/najstM.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -175,7 +175,7 @@
     <Component class="javax.swing.JButton" name="domovButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\1a.jpg"/>
+          <Image iconType="3" name="/GUI/Images/1a.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -192,7 +192,7 @@
     <Component class="javax.swing.JButton" name="PRIDAJbutton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\n.jpg"/>
+          <Image iconType="3" name="/GUI/Images/n.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -209,7 +209,7 @@
     <Component class="javax.swing.JButton" name="pribehButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\k2.jpg"/>
+          <Image iconType="3" name="/GUI/Images/k2.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -227,7 +227,7 @@
     <Component class="javax.swing.JButton" name="nastaveniaButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\s1a.jpg"/>
+          <Image iconType="3" name="/GUI/Images/s1a.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -305,7 +305,7 @@
           <Color blue="ff" green="99" red="99" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\arr.jpg"/>
+          <Image iconType="3" name="/GUI/Images/arr.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -375,7 +375,7 @@
     <Component class="javax.swing.JButton" name="laskaButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Downloads\12520369_1236292979719721_1379009942_n.gif"/>
+          <Image iconType="3" name="/GUI/Images/12520369_1236292979719721_1379009942_n.gif"/>
         </Property>
       </Properties>
       <Events>
@@ -390,7 +390,7 @@
     <Component class="javax.swing.JButton" name="downButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\down.jpg"/>
+          <Image iconType="3" name="/GUI/Images/down.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -435,7 +435,7 @@
     <Component class="javax.swing.JButton" name="zobrazFvtButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\fav1.jpg"/>
+          <Image iconType="3" name="/GUI/Images/fav1.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -474,7 +474,7 @@
     <Component class="javax.swing.JButton" name="fvtButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\Folder-Blue-Favorite-icon.jpg"/>
+          <Image iconType="3" name="/GUI/Images/Folder-Blue-Favorite-icon.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -490,7 +490,7 @@
     <Component class="javax.swing.JButton" name="binButton">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\bin1.jpg"/>
+          <Image iconType="3" name="/GUI/Images/bin1.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -513,7 +513,7 @@
           <Color blue="ff" green="99" red="99" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Pandita\Documents\NetBeansProjects\modlibnicek\hv.jpg"/>
+          <Image iconType="3" name="/GUI/Images/hv.jpg"/>
         </Property>
       </Properties>
       <Constraints>

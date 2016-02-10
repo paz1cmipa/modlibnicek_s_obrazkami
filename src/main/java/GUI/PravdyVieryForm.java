@@ -59,7 +59,7 @@ public class PravdyVieryForm extends javax.swing.JDialog {
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(73, 11, 144, 278));
 
-        odstranitButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\MojaAplikacia\\bin1.jpg")); // NOI18N
+        odstranitButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/bin1.jpg"))); // NOI18N
         odstranitButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 odstranitButtonActionPerformed(evt);
@@ -73,7 +73,7 @@ public class PravdyVieryForm extends javax.swing.JDialog {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(235, 11, 328, 278));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Pictures\\duha_cut.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/duha_cut.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 590, 320));
 
         pack();

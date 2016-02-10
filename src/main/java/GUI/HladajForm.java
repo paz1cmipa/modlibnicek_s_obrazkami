@@ -187,7 +187,7 @@ public class HladajForm extends javax.swing.JDialog {
         });
         getContentPane().add(okButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 240, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Pictures\\hladat_pozadie.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/hladat_pozadie.jpg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 690, 450));
 
         pack();

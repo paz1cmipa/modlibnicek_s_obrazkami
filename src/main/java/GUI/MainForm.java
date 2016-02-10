@@ -212,7 +212,7 @@ public class MainForm extends javax.swing.JFrame {
 
         najstButton.setBackground(new java.awt.Color(204, 255, 255));
         najstButton.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        najstButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\najstM.jpg")); // NOI18N
+        najstButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/najstM.jpg"))); // NOI18N
         najstButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 najstButtonMouseEntered(evt);
@@ -289,7 +289,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pridajButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, -1, -1));
 
-        domovButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\1a.jpg")); // NOI18N
+        domovButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/1a.jpg"))); // NOI18N
         domovButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 domovButtonMouseEntered(evt);
@@ -305,7 +305,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(domovButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 10, 80, 70));
 
-        PRIDAJbutton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\n.jpg")); // NOI18N
+        PRIDAJbutton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/n.jpg"))); // NOI18N
         PRIDAJbutton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 PRIDAJbuttonMouseEntered(evt);
@@ -321,7 +321,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(PRIDAJbutton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 100, 70));
 
-        pribehButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\k2.jpg")); // NOI18N
+        pribehButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/k2.jpg"))); // NOI18N
         pribehButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 pribehButtonMouseClicked(evt);
@@ -340,7 +340,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(pribehButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 100, 70));
 
-        nastaveniaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\s1a.jpg")); // NOI18N
+        nastaveniaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/s1a.jpg"))); // NOI18N
         nastaveniaButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 nastaveniaButtonMouseEntered(evt);
@@ -375,7 +375,7 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 0, 260, 510));
 
         sipkaButton.setBackground(new java.awt.Color(153, 153, 255));
-        sipkaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\arr.jpg")); // NOI18N
+        sipkaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/arr.jpg"))); // NOI18N
         sipkaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sipkaButtonActionPerformed(evt);
@@ -406,7 +406,7 @@ public class MainForm extends javax.swing.JFrame {
         menoLable.setText("menoumy sel");
         getContentPane().add(menoLable, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, 210, 40));
 
-        laskaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Downloads\\12520369_1236292979719721_1379009942_n.gif")); // NOI18N
+        laskaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/12520369_1236292979719721_1379009942_n.gif"))); // NOI18N
         laskaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 laskaButtonActionPerformed(evt);
@@ -414,7 +414,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(laskaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 130, 70, 70));
 
-        downButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\down.jpg")); // NOI18N
+        downButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/down.jpg"))); // NOI18N
         downButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 downButtonActionPerformed(evt);
@@ -436,7 +436,7 @@ public class MainForm extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 600, 680, 240));
 
-        zobrazFvtButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\fav1.jpg")); // NOI18N
+        zobrazFvtButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/fav1.jpg"))); // NOI18N
         zobrazFvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 zobrazFvtButtonMouseEntered(evt);
@@ -459,7 +459,7 @@ public class MainForm extends javax.swing.JFrame {
         getContentPane().add(zobrazitButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 710, -1, -1));
         getContentPane().add(fvtChoice, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 670, 150, 30));
 
-        fvtButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\Folder-Blue-Favorite-icon.jpg")); // NOI18N
+        fvtButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/Folder-Blue-Favorite-icon.jpg"))); // NOI18N
         fvtButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 fvtButtonMouseEntered(evt);
@@ -472,7 +472,7 @@ public class MainForm extends javax.swing.JFrame {
         });
         getContentPane().add(fvtButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 80, 80));
 
-        binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\bin1.jpg")); // NOI18N
+        binButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/bin1.jpg"))); // NOI18N
         binButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 binButtonMouseEntered(evt);
@@ -490,7 +490,7 @@ public class MainForm extends javax.swing.JFrame {
 
         pozadieFvt.setBackground(new java.awt.Color(153, 153, 255));
         pozadieFvt.setForeground(new java.awt.Color(153, 153, 255));
-        pozadieFvt.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\hv.jpg")); // NOI18N
+        pozadieFvt.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/hv.jpg"))); // NOI18N
         getContentPane().add(pozadieFvt, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 560, 1150, 310));
 
         sviatokLable.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N

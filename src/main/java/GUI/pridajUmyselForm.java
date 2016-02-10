@@ -98,7 +98,7 @@ public class pridajUmyselForm extends javax.swing.JDialog {
         getContentPane().add(jButton1);
         jButton1.setBounds(280, 200, 71, 23);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\MojaAplikacia\\s1.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Images/s1.png"))); // NOI18N
         getContentPane().add(jLabel2);
         jLabel2.setBounds(-40, 0, 430, 280);
 
