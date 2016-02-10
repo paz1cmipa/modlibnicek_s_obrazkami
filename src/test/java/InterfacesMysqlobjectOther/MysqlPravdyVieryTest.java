@@ -83,34 +83,7 @@ public class MysqlPravdyVieryTest {
         List<PravdyViery> result = instance.dajVsetky();
         assertEquals(2, result.size()); 
     }
-    /**
-     * Test of upravit method, of class MysqlPravdyViery.
-     */
-    /*
-    @Test
-    public void testUpravit() {
-        System.out.println("upravit");
-        PravdyViery pravdy = null;
-        MysqlPravdyViery instance = new MysqlPravdyViery();
-        instance.upravit(pravdy);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of hladat method, of class MysqlPravdyViery.
-     */
-    /*
-    @Test
-    public void testHladat() {
-        System.out.println("hladat");
-        String s = "";
-        MysqlPravdyViery instance = new MysqlPravdyViery();
-        List<PravdyViery> expResult = null;
-        List<PravdyViery> result = instance.hladat(s);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }*/
+  
+   
     
 }
