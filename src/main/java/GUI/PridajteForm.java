@@ -126,6 +126,7 @@ public class PridajteForm extends javax.swing.JFrame {
 
         zatvorButton.setBackground(new java.awt.Color(255, 255, 255));
         zatvorButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        zatvorButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\12.jpg")); // NOI18N
         zatvorButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 zatvorButtonMouseEntered(evt);

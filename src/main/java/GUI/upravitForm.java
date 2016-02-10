@@ -162,6 +162,7 @@ public class upravitForm extends javax.swing.JFrame {
         getContentPane().add(zrusButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 320, -1, -1));
         getContentPane().add(choice1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 52, 124, -1));
 
+        binButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Pandita\\Documents\\NetBeansProjects\\modlibnicek\\bin1.jpg")); // NOI18N
         binButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 binButtonMouseClicked(evt);
